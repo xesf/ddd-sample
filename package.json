@@ -1,0 +1,15 @@
+{
+    "name": "ddd-sample",
+    "version": "0.0.1",
+    "description": "Domain Driven Design Sample using Node JS",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/",
+        "test": "jest src",
+        "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
