@@ -1,15 +1,25 @@
-import { v4 as uuid } from 'uuid';
+// import { v4 as uuid } from 'uuid';
+// import { GUID } from '.';
 
-// A Customer reserves specific seats at a specific screening
-// (for simplicity, assume there exists only one screening for the time beeing).
-// If availble, the seats should be reserved.
+// // A Customer reserves specific seats at a specific screening
+// // (for simplicity, assume there exists only one screening for the time beeing).
+// // If availble, the seats should be reserved.
 
-import { reserve, ReserveSeats } from './handler';
+// const getEventHistory = (customerId: GUID) => []; // no history
+// const getPublishedEvents = (customerId: GUID): SeatsReserved => ({ uuid: '3' });
 
 describe('Reserve', () => {
-    const reserveObj: ReserveSeats = new ReserveSeats('1', '2', [{ uuid: '3', row: 1, seat: 10 }]);
     it('Create New Reserve Seats', () => {
-        const reserve = jest.fn();
-        expect(reserve(reserveObj)).toBeCalled();
+        //         const customerId = '1';
+        //         const screeningId = '2';
+        //         // given
+        //         const events = getEventHistory(customerId);
+        //         // when
+        //         // reserve the seat
+        //         reserve(new ReserveSeats(customerId, screeningId, [{ uuid: '3', row: 1, seat: 10 }]));
+        //         // then
+        //         // seatReserved was published
+        //         const seatsReserved: SeatsReserved = { uuid: '123' };
+        //         expect(getPublishedEvents(customerId)).toEqual(seatsReserved);
     });
 });
